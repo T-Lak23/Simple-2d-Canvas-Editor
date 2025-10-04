@@ -38,9 +38,10 @@ export const useSetCanvas = ({
       const docSnap = await getDoc(docRef);
       if (docSnap.exists()) {
         const data = docSnap.data();
+        const json = JSON.parse(data.canavasData);
         if (data?.canavasData) {
           initialCanvas.loadFromJSON(
-            data.canavasData,
+            json,
             initialCanvas.requestRenderAll.bind(initialCanvas)
           );
         }
