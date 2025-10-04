@@ -36,8 +36,7 @@ A Simple 2D Canvas Editor built with **React.js**, **Fabric.js**, and **Firebase
 
 ## 🚀 Live Demo
 
-> Optional: Add your live deployment link here  
-> [Live Demo](https://your-deployment-url.com)
+> [Live Demo](https://simple-2d-canvas-editor.vercel.app/s)
 
 ---
 
