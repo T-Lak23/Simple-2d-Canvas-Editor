@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* Add this in your global.css or Tailwind components layer */
+.toolbar-btn {
+  @apply bg-gray-100 border border-gray-300 rounded-lg p-2 sm:p-2.5 cursor-pointer hover:bg-gray-200 transition;
+}
+
+.icon {
+  @apply size-7 sm:size-7 stroke-black;
+}
